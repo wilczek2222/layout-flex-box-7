@@ -1,0 +1,44 @@
+*{ 
+    box-sizing: border-box;
+}
+
+.container{ 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 500px;
+    color: white;
+    font-size: 30px;
+  
+}
+
+.head{ 
+    background-color: red;
+    width: 100%;
+    
+}
+.box1{
+    background-color: rgb(0, 119, 255);
+    width: 60%;
+    height: 100%;
+    order: 2;
+ 
+}
+.box2{ 
+    background-color:  green;
+    width: 20%;
+    height: 100%;
+    order: 1;
+   
+}
+.box3{ 
+    background-color: pink;
+    width: 20%;
+    height: 100%;
+    order: 3;
+}
+.foot{ 
+    background-color: purple;
+    width: 100%;
+    order: 4;
+}
